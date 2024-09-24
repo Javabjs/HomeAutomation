@@ -28,7 +28,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
           registry: ghcr.io
       - name: Build Docker Image
-        run: docker build -t ghcr.io/Javabjs/homeautomation:latest
+        run: docker build . --tag ghcr.io/Javabjs/homeautomation:latest
 
       - name: Push Docker Image
         run: docker push ghcr.io/Javabjs/homeautomation:latest
