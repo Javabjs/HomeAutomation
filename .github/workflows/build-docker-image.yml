@@ -1,5 +1,4 @@
 name: Build And Push Docker Image
-description: Build and push a Docker image to a registry
 on: 
   push:
     branches:
