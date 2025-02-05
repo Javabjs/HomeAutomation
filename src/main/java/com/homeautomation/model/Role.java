@@ -1,7 +1,6 @@
 package com.homeautomation.model;
 
 import java.util.Date;
-import java.util.List;
 import java.util.UUID;
 
 import org.hibernate.annotations.CreationTimestamp;

@@ -7,7 +7,6 @@ import java.util.UUID;
 import com.homeautomation.model.Role;
 
 
-
 public interface RoleService {
 	Role createRole(Role role);
 	Optional <Role> getRoleByUuid(UUID uuid );

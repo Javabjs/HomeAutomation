@@ -1,0 +1,9 @@
+com.homeautomation
+com.HomeAutomation
+com.homeautomation.config
+com.homeautomation.controller
+com.homeautomation.model
+com.homeautomation.repository
+com.homeautomation.security.jwtutils
+com.homeautomation.security.service
+com.homeautomation.service

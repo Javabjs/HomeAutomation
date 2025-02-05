@@ -7,8 +7,6 @@ import org.springframework.stereotype.Repository;
 
 import com.homeautomation.model.Role;
 
-
-
 @Repository
 
 public interface RoleRepository  extends JpaRepository<Role, UUID>  {
